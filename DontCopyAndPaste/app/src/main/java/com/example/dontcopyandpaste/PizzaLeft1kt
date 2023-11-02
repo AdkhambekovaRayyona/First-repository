@@ -1,0 +1,15 @@
+package com.example.dontcopyandpaste
+
+import androidx.compose.runtime.Composable
+import androidx.navigation.NavController
+
+
+@Composable
+fun PizzaLeft1(
+    navController: NavCont{
+    Text(
+        R.drawable.pizza1,
+        "Peperoni",
+        60.0
+    )
+}

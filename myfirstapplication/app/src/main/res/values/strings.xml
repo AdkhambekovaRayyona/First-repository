@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">my first application</string>
+    <string name="button_next">Next</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="instagram">Instagram</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="show"/>
+    <string name="question"/>
+    <string name="button_no"/>
+</resources>

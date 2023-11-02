@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--        <TextView-->
+    <!--                android:layout_width="0dp"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:text="A"-->
+    <!--                android:layout_weight="3"-->
+    <!--                android:background="@color/black"-->
+    <!--                android:layout_gravity="start"-->
+    <!--                android:textStyle="italic"-->
+    <!--                android:textSize="40sp"-->
+    <!--                android:textColor="@color/teal_700"/>-->
+
+    <!--        <TextView-->
+    <!--                android:layout_width="0dp"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:text="B"-->
+    <!--                android:layout_weight="4"-->
+    <!--                android:gravity="center"-->
+    <!--                android:textStyle="italic"-->
+    <!--                android:background="@color/teal_200"-->
+    <!--                android:textSize="40sp"-->
+    <!--                android:textColor="@color/teal_700"/>-->
+
+    <!--        <TextView-->
+    <!--                android:layout_width="0dp"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:text="C"-->
+    <!--                android:layout_weight="3"-->
+    <!--                android:background="@color/black"-->
+    <!--                android:gravity="end"-->
+    <!--                android:layout_gravity="end"-->
+    <!--                android:textStyle="italic"-->
+    <!--                android:textSize="40sp"-->
+    <!--                android:textColor="@color/teal_700"/>-->
+
+    <!--    <RadioGroup-->
+    <!--            android:id="@+id/radioGroup"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_gravity="center"-->
+    <!--            android:gravity="center">-->
+
+    <!--        &lt;!&ndash;adding a radio button&ndash;&gt;-->
+    <!--        <RadioButton-->
+    <!--                android:id="@+id/javaRB"-->
+    <!--                android:layout_width="200dp"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_gravity="center"-->
+    <!--                android:checked="false"-->
+    <!--                android:padding="4dp"-->
+    <!--                android:text="Java"-->
+    <!--                android:textAlignment="center"-->
+    <!--                android:textSize="20sp"/>-->
+
+    <!--        adding a radio button-->
+
+    <!--        &lt;!&ndash;  adding a radio button&ndash;&gt;-->
+    <!--        <RadioButton-->
+    <!--                android:id="@+id/cRB"-->
+    <!--                android:layout_width="200dp"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:checked="false"-->
+    <!--                android:padding="4dp"-->
+    <!--                android:text="c++"-->
+    <!--                android:textAlignment="center"-->
+    <!--                android:textSize="20sp"/>-->
+    <!--        <RadioButton-->
+    <!--                android:id="@+id/pythonRB"-->
+    <!--                android:layout_width="200dp"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_gravity="center"-->
+    <!--                android:checked="false"-->
+    <!--                android:padding="4dp"-->
+    <!--                android:text="python"-->
+    <!--                android:textAlignment="center"-->
+    <!--                android:textSize="20sp"/>-->
+
+    <!--    </RadioGroup>-->
+
+    <!--    <CheckBox-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="Merried"-->
+    <!--            android:checked="true"/>-->
+    <!--    <androidx.appcompat.widget.SwitchCompat-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="Gas"/>-->
+
+    <!--    <ImageView android:layout_width="wrap_content"-->
+    <!--               android:layout_height="wrap_content"-->
+    <!--               android:src="@drawable/ic_launcher_background"/>-->
+
+    <!--    <Button android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="Click"/>-->
+
+    <!--    <View android:id="@+id/bg"-->
+    <!--          app:layout_constraintEnd_toEndOf="parent"-->
+    <!--          app:layout_constraintTop_toTopOf="parent"-->
+    <!--          app:layout_constraintStart_toStartOf="parent"-->
+    <!--          app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--          android:layout_width="229dp"-->
+    <!--          android:layout_height="342dp"-->
+    <!--          android:background="@color/teal_700"-->
+    <!--          app:layout_constraintHorizontal_bias="0.318"-->
+    <!--          app:layout_constraintVertical_bias="0.233"/>-->
+
+    <!--    <TextView android:layout_width="0dp"-->
+    <!--            android:layout_height="24dp"-->
+    <!--            android:text="❤️"-->
+    <!--            app:layout_constraintRight_toRightOf="@+id/bg"-->
+    <!--            app:layout_constraintTop_toTopOf="@+id/bg"-->
+    <!--            app:layout_constraintBottom_toBottomOf="@+id/textView"-->
+    <!--            android:textSize="30sp"-->
+    <!--            android:textColor="#FF0000"-->
+    <!--            app:layout_constraintVertical_bias="0.754"-->
+    <!--            app:layout_constraintStart_toStartOf="@+id/bg" -->
+    <!--            app:layout_constraintEnd_toEndOf="@+id/bg"-->
+    <!--            app:layout_constraintHorizontal_bias="1.0" -->
+    <!--            android:layout_marginBottom="173dp"/>-->
+
+    <!--    <TextView android:layout_width="120dp"-->
+    <!--              android:layout_height="400dp"-->
+    <!--              android:text="To my best friend"-->
+    <!--              app:Layout_constraintLeft_toLeftOf="@id/bg"-->
+    <!--              app:layout_constraintRight_toRightOf="@+id/bg"-->
+    <!--              app:Layout_constraintVertical_bias="0.2"-->
+    <!--              android:textSize="20sp"-->
+    <!--              android:textColor="@color/white"-->
+    <!--              android:textStyle="bold"-->
+    <!--              app:layout_constraintBottom_toBottomOf="@+id/bg"-->
+    <!--              app:layout_constraintVertical_bias="0.523"-->
+    <!--              android:layout_marginRight="12dp"-->
+    <!--              app:layout_constraintStart_toStartOf="parent"-->
+    <!--              android:layout_marginStart="104dp"-->
+    <!--              android:id="@+id/textView"-->
+    <!--              app:layout_constraintTop_toTopOf="@+id/bg"/>-->
+
+    <!--    <com.google.android.material.button.MaterialButton-->
+    <!--            android:layout_width="95dp"-->
+    <!--            android:layout_height="67dp"-->
+    <!--            app:Layout_constraintLeft_toLeftOf="@id/bg"-->
+    <!--            app:Layout_constraintRight_toRightOf="@id/bg"-->
+    <!--            app:Layout_constraintBottom_toBottomOf="@id/bg"-->
+    <!--            android:text="Je t'aim"-->
+    <!--            android:backgraundTint="@color/teal_700"-->
+    <!--            android:textColor="@color/white"-->
+    <!--            android:textStyle="bold"-->
+    <!--            android:textSize="16sp"-->
+    <!--            android:Layout_marginBottom="16dp"-->
+    <!--            app:strokeWidth="2dp"-->
+    <!--            app:strokeColor="@color/white"-->
+    <!--            app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--            app:layout_constraintEnd_toEndOf="parent"-->
+    <!--            app:layout_constraintStart_toStartOf="parent"-->
+    <!--            app:layout_constraintHorizontal_bias="0.408"-->
+    <!--            app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.524"-->
+    <!--            android:id="@+id/materialButton"/>-->
+
+    <!--    <View android:id="@+id/bg"-->
+    <!--          app:layout_constraintEnd_toEndOf="parent"-->
+    <!--          app:layout_constraintTop_toTopOf="parent"-->
+    <!--          app:layout_constraintStart_toStartOf="parent"-->
+    <!--          app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--          android:layout_width="229dp"-->
+    <!--          android:layout_height="342dp"-->
+    <!--          android:background="@color/teal_700"-->
+    <!--          app:layout_constraintHorizontal_bias="0.318"-->
+    <!--          app:layout_constraintVertical_bias="0.241"/>-->
+    <!--    <TextView-->
+    <!--            android:layout_width="141dp"-->
+    <!--            android:layout_height="49dp"-->
+    <!--            android:text="❤️"-->
+    <!--            app:layout_constraintRight_toRightOf="@+id/bg"-->
+    <!--            app:layout_constraintTop_toTopOf="@+id/bg"-->
+    <!--            app:layout_constraintBottom_toBottomOf="@+id/textView"-->
+    <!--            android:textSize="30sp"-->
+    <!--            android:textColor="#FF0000"-->
+    <!--            app:layout_constraintVertical_bias="0.716"-->
+    <!--            app:layout_constraintStart_toStartOf="@+id/bg"-->
+    <!--            app:layout_constraintEnd_toEndOf="@+id/bg"-->
+    <!--            app:layout_constraintHorizontal_bias="1.0"-->
+    <!--            android:layout_marginBottom="173dp"/>-->
+
+<!--    <ImageView-->
+<!--            android:layout_width="184dp"-->
+<!--            android:layout_height="152dp"-->
+<!--            android:src="@drawable/ic_launcher_background"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            android:layout_marginTop="30dp"-->
+<!--            android:id="@+id/imageView"/>-->
+<!--    <Button-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Zoom"-->
+<!--            android:layout_marginLeft="16dp"-->
+<!--            android:id="@+id/button"-->
+<!--            app:layout_constraintTop_toTopOf="@+id/button2"-->
+<!--            app:layout_constraintStart_toStartOf="parent"/>-->
+<!--    <Button-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Blink"-->
+<!--            android:layout_marginTop="64dp"-->
+<!--            android:id="@+id/button2"-->
+<!--            app:layout_constraintStart_toEndOf="@+id/button"-->
+<!--            app:layout_constraintEnd_toStartOf="@+id/button3"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/imageView"/>-->
+
+<!--    <Button-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Rotate"-->
+<!--            android:layout_marginRight="16dp"-->
+<!--            android:id="@+id/button3"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="@+id/button2"/>-->
+
+<!--    <Button-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Move"-->
+<!--            android:id="@+id/button5"-->
+<!--            app:layout_constraintTop_toTopOf="@+id/button7"-->
+<!--            app:layout_constraintBottom_toBottomOf="@+id/button7"-->
+<!--            app:layout_constraintStart_toStartOf="@+id/button"/>-->
+
+<!--    <Button-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Slide"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/button2"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:id="@+id/button7"-->
+<!--            app:layout_constraintEnd_toEndOf="@+id/button2"-->
+<!--            app:layout_constraintStart_toStartOf="@+id/button2"/>-->
+
+<!--    <Button-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Fade"-->
+<!--            android:id="@+id/button6"-->
+<!--            app:layout_constraintEnd_toEndOf="@+id/button3"-->
+<!--            app:layout_constraintBottom_toBottomOf="@+id/button7"-->
+<!--            app:layout_constraintTop_toTopOf="@+id/button7"/>-->
+
+<!--    <Button-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Stop animation"-->
+<!--            android:id="@+id/button4"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/button7"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"/>-->
+
+<!--    <com.google.android.material.button.MaterialButton-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/button_next"-->
+<!--            android:fontFamily="@font/roboto_medium"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:id="@+id/button1"-->
+<!--            android:backgroundTint="@color/blue"-->
+<!--            android:layout_margin="16dp"-->
+<!--            app:layout_constraintRight_toRightOf="parent"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            style="@style/Widget.MaterialComponents.Button.TextButton"/>-->
+
+<!--    <com.google.android.material.button.MaterialButton-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/button_cancel"-->
+<!--            android:fontFamily="@font/roboto_medium"-->
+<!--            android:textColor="@color/blue"-->
+<!--            android:id="@+id/button2"-->
+<!--            android:backgroundTint="@color/white"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            android:layout_margin="16dp"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            style="@style/Widget.MaterialComponents.Button.TextButton"/>-->
+
+<!--    <com.google.android.material.textfield.TextInputEditText-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/text"-->
+<!--            android:fontFamily="@font/roboto_medium"-->
+<!--            android:text="@string/instagram"-->
+<!--            android:textStyle="italic"-->
+<!--            android:textSize="35sp"-->
+<!--            android:textColor="@android:color/holo_orange_dark"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            android:layout_margin="16dp"/>-->
+
+<!--    <com.google.android.material.button.MaterialButton-->
+<!--            android:layout_width="202dp"-->
+<!--            android:layout_height="61dp"-->
+<!--            android:id="@+id/button1"-->
+<!--            android:text="@string/sign_up"-->
+<!--            android:fontFamily="@font/roboto_medium"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:backgroundTint="@android:color/holo_orange_dark"-->
+<!--            android:layout_margin="200dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/button7"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            tools:ignore="UnknownId"-->
+<!--            style="@style/Widget.MaterialComponents.Button.TextButton"/>-->
+
+<!--    <com.google.android.material.button.MaterialButton-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/button2"-->
+<!--            android:text="@string/button_next"-->
+<!--            android:fontFamily="@font/roboto_medium"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:backgroundTint="@android:color/holo_orange_dark"-->
+<!--            android:layout_margin="16dp"-->
+<!--            style="@style/Widget.MaterialComponents.Button.TextButton"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintStart_toEndOf="@+id/button1"/>-->
+
+<!--    <com.google.android.material.button.MaterialButton-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/button3"-->
+<!--            android:text="@string/button_cancel"-->
+<!--            android:fontFamily="@font/roboto_medium"-->
+<!--            android:textColor="@android:color/holo_orange_dark"-->
+<!--            android:backgroundTint="@color/white"-->
+<!--            android:layout_margin="16dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toStartOf="@+id/button1"-->
+<!--            style="@style/Widget.MaterialComponents.Button.TextButton"/>-->
+
+
+
+
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<com.google.android.material.button.MaterialButton
+    style="@style/Widget.MaterialComponents.Button.TextButton"
+    android:backgroundTint="@android:color/transparent"
+    android:frontFamily="monospace"
+    android:id="@+id/btn_show_view"
+    android:layout_width="wrap_content"
+    android:layout_margin="16dp"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:text="@string/show"
+    android:textAllCaps="false"
+    android:textColor="@color/teal_700"
+    android:textSize="20sp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:strokeColor="@color/teal_700"
+    app:strokeWidth="2dp">
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
